@@ -10,31 +10,21 @@ body{
 }
 
 .intro{
-    font-size: 30px;
-    text-align: center;
-    color:green;
-    font-weight: bold;
-    border: 2px solid blue;
     background-color: bisque;
-    padding: 100px;
+    border: 5px solid blue;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px 20px;
 }
 
-.intro2{
-    text-align: center;
-    font-size: 25px;
+h1 {
+    color: darkgreen;
+    font-size: 32px;
+    font-family: 'Georgia', serif;
 }
 
-.intro3{
-    text-align: center;
-    font-size: 25px;
-}
-
-.intro4{
-    text-align: center;
-    font-size: 25px;
-}
-
-#java{
+.java{
     display: block;
     margin-right: auto;
     position: absolute;
@@ -42,35 +32,104 @@ body{
     left: 20px;
 }
 
-#cmais{
+.cmais{
     display: block;
     margin-left: auto;
     position: absolute;
     top: 20px;
-    right: 20px;
+    left: 20px;
+}
+
+.menu {
+    background-color: cyan;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.home {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
 }
 
 #book1{
-    display: block;
-    margin-right: auto;
+    display: inline-block;
+    margin-left: 530px;
+    margin-right: 50px;
 }
 
 #book2{
-    display: block;
-    margin-right: auto;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 50px;
 }
 
 #book3{
-    display: block;
-    margin-right: auto;
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 50px;
 }
 
 #video{
-    display: block;
-    margin-right: auto;
+    display: inline-block;
+    margin-left: 350px;
+    margin-right: 50px;
 }
 
 #map{
-    display: block;
-    margin-right: auto;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.tabela {
+    border: 3px dashed red;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.tabela th, td {
+    border: 1px solid black;
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.tabela th {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.consulta1{
+    margin: 24px auto;
+    background-color: yellow;
+    width: 500px;
+    height: 140px;
+    padding: 20px;
+}
+
+a{
+    color:darkred;
+    font-weight: bold;
+}
+
+.consulta2 {
+    text-align: left;
 }
